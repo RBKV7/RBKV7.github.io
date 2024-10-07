@@ -2,18 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mano paperMod</title>
-    <link>https://RBKV7.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Mano paperMod</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Oct 2024 17:36:20 +0300</lastBuildDate>
-    <atom:link href="https://RBKV7.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mano Web HUgo</title>
-      <link>https://RBKV7.github.io/posts/mano-web/</link>
+      <title>Mano Web HUgo update2</title>
+      <link>http://localhost:1313/posts/mano-web/</link>
       <pubDate>Mon, 07 Oct 2024 17:36:20 +0300</pubDate>
-      <guid>https://RBKV7.github.io/posts/mano-web/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/mano-web/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/A-Cat.jpg&#34; alt=&#34;image&#34;  /&gt;
+
+Python web scrap kodas:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;get_companies&lt;/span&gt;(url):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    response &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; requests&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get(url)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    soup &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; BeautifulSoup(response&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;content, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;html.parser&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    h3_tags &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; soup&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;find_all(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;h3&amp;#39;&lt;/span&gt;, class_&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;wp-block-heading&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    companies &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; h3_tag &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; h3_tags:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        company_info &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; extract_company_info(h3_tag, url)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        companies&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(company_info)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; companies
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/jpeg_43-2.jpg&#34; alt=&#34;image&#34;  /&gt;
+&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
