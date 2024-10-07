@@ -6,8 +6,15 @@
     <description>Recent content on Mano paperMod</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Oct 2024 17:36:20 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2024 18:18:48 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antrasis Puslapis</title>
+      <link>http://localhost:1313/apie/</link>
+      <pubDate>Mon, 07 Oct 2024 18:18:48 +0300</pubDate>
+      <guid>http://localhost:1313/apie/</guid>
+      <description>&lt;p&gt;Čia yra antrasis mano tinklalapio įrašas!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mano Web HUgo update2</title>
       <link>http://localhost:1313/posts/mano-web/</link>
